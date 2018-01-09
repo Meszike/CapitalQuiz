@@ -35,7 +35,8 @@
     <Button
         android:id="@+id/restartButton"
         style="@style/Restart_Button"
-        android:text="@string/end" />
+        android:text="@string/end"
+        />
 
 
 </RelativeLayout>
