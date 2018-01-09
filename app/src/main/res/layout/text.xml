@@ -21,7 +21,8 @@
         android:textCursorDrawable="@color/textcolor"
         android:id="@+id/txtAnswer"
         style="@style/HintText"
-        android:hint="@string/hint" />
+        android:hint="@string/hint"
+        />
 
     <TextView
         android:id="@+id/solution"
