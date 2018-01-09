@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/RelativeLayout"
     tools:context="com.example.popey.capitalquiz.MainActivity">
@@ -16,6 +17,8 @@
         android:text="@string/question_1" />
 
     <EditText
+        android:backgroundTint="@color/textcolor"
+        android:textCursorDrawable="@color/textcolor"
         android:id="@+id/txtAnswer"
         style="@style/HintText"
         android:hint="@string/hint" />

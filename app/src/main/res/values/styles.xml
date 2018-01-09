@@ -97,6 +97,7 @@
         <item name="android:textColor">@color/textcolor</item>
         <item name="android:textColorHint">@color/textcolor</item>
 
+
     </style>
 
 

@@ -3,7 +3,7 @@
     <string name="app_name">Capital Quiz</string>
     <string name="greetings">How many capitals of countries do you know? \nYou have to answer 10 questions. \nAre you ready?</string>
     <string name="start_button">START</string>
-    <string name="hint">Type in your answer!</string>
+    <string name="hint">Write in your answer!</string>
     <string name="next">Next Question</string>
     <string name="check">Check answer</string>
     <string name="correct">Correct!</string>
