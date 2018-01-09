@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayout"
+    tools:context="com.example.popey.capitalquiz.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/questionImage"
+        style="@style/TextFieldImage" />
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/TextFieldText"
+        android:text="@string/question_3" />
+
+    <LinearLayout style="@style/LinearLayout">
+
+        <CheckBox
+            android:id="@+id/choice_1"
+            style="@style/RadioButton"
+            android:text="@string/question_3_choice_1"
+            android:theme="@style/checkBoxStyle" />
+
+        <CheckBox
+            android:id="@+id/choice_2"
+            style="@style/RadioButton"
+            android:text="@string/question_3_choice_2"
+            android:theme="@style/checkBoxStyle" />
+
+        <CheckBox
+            android:id="@+id/choice_3"
+            style="@style/RadioButton"
+            android:text="@string/question_3_choice_3"
+            android:theme="@style/checkBoxStyle" />
+
+        <CheckBox
+            android:id="@+id/choice_4"
+            style="@style/RadioButton"
+            android:text="@string/question_3_choice_4"
+            android:theme="@style/checkBoxStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check_button"
+        style="@style/CheckButton" />
+
+
+</RelativeLayout>
+

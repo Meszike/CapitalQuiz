@@ -1,5 +1,5 @@
 package com.example.popey.capitalquiz;
-
+import android.widget.Toast;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -10,7 +10,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
       //global variables
-      private int questionNumber = 1;
+      public int questionNumber = 1;
 
       //sources
     Button startButton = null;
@@ -23,11 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         // StartButton click
         startButton = (Button) findViewById(R.id.startButton);
-
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent question1 = new Intent(MainActivity.this,QuestionTextfield.class);
+                Intent question1 = new Intent(MainActivity.this,Text.class);
                 question1.putExtra("questionNumber",1);
                 startActivity(question1);
             }

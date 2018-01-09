@@ -3,8 +3,13 @@
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#111111</color>
     <color name="colorAccent">#FFCC0000</color>
-    <color name="colorRed">#FFCC0000</color>
-    <color name="colorGreen">#4CAF50</color>
-    <color name="textcolor">#ffffff</color>
+    <color name="colorRed">#BF360C</color>
+    <color name="colorGreen">#1B5E20</color>
+    <color name="textcolor">#000000</color>
+    <color name="textColor2">#424242</color>
+
+
+
+
 
 </resources>
