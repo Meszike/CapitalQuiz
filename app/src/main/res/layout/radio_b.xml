@@ -3,7 +3,6 @@
     style="@style/RelativeLayout"
     tools:context="com.example.popey.capitalquiz.MainActivity">
 
-
     <ImageView
         android:id="@+id/questionImage"
         style="@style/TextFieldImage" />
@@ -11,28 +10,32 @@
     <TextView
         android:id="@+id/question"
         style="@style/TextFieldText"
-        android:text="@string/question_3" />
+        android:text="@string/question_2" />
 
     <RadioGroup
         android:id="@+id/answers"
-        style="@style/RadioGroup">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question"
+        android:layout_margin="@dimen/normal_margin"
+        android:orientation="vertical">
 
         <RadioButton
             android:id="@+id/choice_1"
             style="@style/RadioButton"
-            android:text="@string/question_3_choice_1"
+            android:text="@string/question_2_choice_1"
             android:theme="@style/RadioButtonStyle" />
 
         <RadioButton
             android:id="@+id/choice_2"
             style="@style/RadioButton"
-            android:text="@string/question_3_choice_2"
+            android:text="@string/question_2_choice_2"
             android:theme="@style/RadioButtonStyle" />
 
         <RadioButton
             android:id="@+id/choice_3"
             style="@style/RadioButton"
-            android:text="@string/question_3_choice_3"
+            android:text="@string/question_2_choice_3"
             android:theme="@style/RadioButtonStyle" />
 
     </RadioGroup>
@@ -40,6 +43,5 @@
     <Button
         android:id="@+id/check_button"
         style="@style/CheckButton" />
-
 
 </RelativeLayout>

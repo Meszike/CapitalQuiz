@@ -3,7 +3,6 @@
     style="@style/RelativeLayout"
     tools:context="com.example.popey.capitalquiz.MainActivity">
 
-
     <TextView
         android:id="@+id/result"
         style="@style/Score"
@@ -36,7 +35,6 @@
         android:id="@+id/restartButton"
         style="@style/Restart_Button"
         android:text="@string/end" />
-
 
 </RelativeLayout>
 

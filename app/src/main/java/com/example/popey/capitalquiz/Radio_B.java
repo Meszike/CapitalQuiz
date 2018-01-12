@@ -112,9 +112,9 @@ public class Radio_B extends AppCompatActivity {
                     //if is not selected choice
                     int selectedId = answers.getCheckedRadioButtonId();
                     if (selectedId == -1) {
-                        Toast ToastMessage = Toast.makeText(Radio_B.this, getString(R.string.no_selected), Toast.LENGTH_SHORT);
+                        Toast ToastMessage = Toast.makeText(getApplicationContext(), (R.string.no_selected), Toast.LENGTH_SHORT);
                         View toastView = ToastMessage.getView();
-                        toastView.setBackgroundColor(ContextCompat.getColor(Radio_B.this, R.color.colorPrimary));
+                        toastView.setBackgroundColor(ContextCompat.getColor(Radio_B.this, R.color.colorRed));
                         ToastMessage.show();
                         return;
                     }

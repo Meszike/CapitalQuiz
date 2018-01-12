@@ -23,14 +23,15 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Check_B"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Text"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Score"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"/>
 
     </application>
+
 
 </manifest>

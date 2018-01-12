@@ -12,8 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
-
+import android.widget.Toast;
 
 
 public class Score extends AppCompatActivity {
@@ -21,6 +20,7 @@ public class Score extends AppCompatActivity {
     //global variables
     public int rightAnswers = 0;
     public int questionNumber = 0;
+    public int maxQuestionNumber = 10;
     private TextView scoreView;
     private TextView sumView;
     Button restartButton = null;
@@ -28,10 +28,8 @@ public class Score extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.score);
         Bundle extras = getIntent().getExtras();
-
         //display score
         scoreView = (TextView) findViewById(R.id.right);
         rightAnswers = extras.getInt("rightAnswers");
@@ -39,9 +37,6 @@ public class Score extends AppCompatActivity {
         sumView = (TextView) findViewById(R.id.sum);
         Radio_B qrb = new Radio_B();
         sumView.setText(String.valueOf(qrb.maxQuestionNumber));
-
-
-
 
         // restart button click
         restartButton = (Button) findViewById(R.id.restartButton);

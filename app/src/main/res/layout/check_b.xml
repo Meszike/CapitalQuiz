@@ -5,7 +5,6 @@
     style="@style/RelativeLayout"
     tools:context="com.example.popey.capitalquiz.MainActivity">
 
-
     <ImageView
         android:id="@+id/questionImage"
         style="@style/TextFieldImage" />
@@ -46,7 +45,6 @@
     <Button
         android:id="@+id/check_button"
         style="@style/CheckButton" />
-
 
 </RelativeLayout>
 
